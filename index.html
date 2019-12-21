@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+    canvas {
+        margin: 0 auto;
+        border: 1px solid black;
+    }
+</style>
+<body>
+
+<canvas id="canvas" width="1200px" height="800px"></canvas>
+<input type="range" id="sea-level" name="sea-level" 
+    min="0" max="180" value="0" step="10">
+<label for="sea-level">Sea Level: <span id="curr-sea-level">0</span>m</label>
+
+<script src="d3.js"></script>
+<script src="d3-zoom.js"></script>
+<script src="main.js"></script>
